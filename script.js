@@ -30,51 +30,51 @@ function chargerContenu(categorie) {
         divContenuPrincipal.innerHTML = `
             <div class="cartes">
                 <div class="carte">
-                    <img src="https://static.vecteezy.com/system/resources/previews/019/980/702/original/soccer-ball-3d-illustration-free-png.png">
+                    <img src="images/soccer-ball-3d-illustration-free-png.webp">
                     <p>Football</p>
                 </div>
                 <div class="carte">
-                    <img src="https://pngimg.com/d/rugby_PNG106.png" alt="Touch Rugby">
+                    <img src="images/pngimg.com - rugby_PNG106.png" alt="Touch Rugby">
                     <p>Touch Rugby</p>
                 </div>
                 <div class="carte">
-                    <img src="https://assets.stickpng.com/images/580b585b2edbce24c47b2b93.png" alt="Tennis">
+                    <img src="images/580b585b2edbce24c47b2b93.png" alt="Tennis">
                     <p>Tennis</p>
                 </div>
                 <div class="carte">
-                    <img src="https://pngimg.com/d/ping_pong_PNG102675.png" alt="Tennis de Table">
+                    <img src="images/pngimg.com - ping_pong_PNG102675.png" alt="Tennis de Table">
                     <p>Tennis de Table</p>
                 </div>
                 <div class="carte">
-                    <img src="https://assets.stickpng.com/images/5856a5154f6ae202fedf2761.png" alt="Basket-Ball">
+                    <img src="images/5856a5154f6ae202fedf2761.png" alt="Basket-Ball">
                     <p>Basket-Ball</p>
                 </div>
                 <div class="carte">
-                    <img src="https://purepng.com/public/uploads/large/purepng.com-volleyballlarge-ballvolleyballgamessportsvolleyball-player-1701528201623fdced.png" alt="Volley-Ball">
+                    <img src="images/purepng.com-volleyballlarge-ballvolleyballgamessportsvolleyball-player-1701528201623fdced.png" alt="Volley-Ball">
                     <p>Volley-Ball</p>
                 </div>
                 <div class="carte">
-                <img src="images/hand.png" alt="Handball">
-                <p>Handball</p>
-            </div>
+                    <img src="images/hand.png" alt="Handball">
+                    <p>Handball</p>
+                </div>
             </div>
         `;
     } else if (categorie === "contact") {
         divContenuPrincipal.innerHTML = `
-        <div class="Gratuit">
-        <img src="images/Gratuit.png" alt="Gratuit">
-        </div>
-        <div class="Instagram">
-        <a href="https://www.instagram.com/coupedefrance.iut.2024/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
-            <img src="images/insta.png" alt="Instagram">
-        </a>
-    </div>
-        <div class ="Affiche2">
-        <img src="images/info.jpeg" alt="Image de contact">
-        </div>
-        <div class="site">
-        <a href="https://coupedefrance.iut.fr/">https://coupedefrance.iut.fr</a>
-        </div>
+            <div class="Gratuit">
+                <img src="images/gratuit.png" alt="Gratuit">
+            </div>
+            <div class="Instagram">
+                <a href="https://www.instagram.com/coupedefrance.iut.2024/?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
+                    <img src="images/insta.png" alt="Instagram">
+                </a>
+            </div>
+            <div class ="Affiche2">
+                <img src="images/info.jpeg" alt="Image de contact">
+            </div>
+            <div class="site">
+                <a href="https://coupedefrance.iut.fr/">https://coupedefrance.iut.fr</a>
+            </div>
     `;
     } else if (categorie === "accueil") {
         divContenuPrincipal.innerHTML = `

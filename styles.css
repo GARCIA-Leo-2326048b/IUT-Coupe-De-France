@@ -157,7 +157,8 @@ nav a:hover {
 /* Styles pour la catégorie "Contact" avec la classe "site" */
 .site {
     text-align: center; 
-    position: relative; 
+    position: absolute; 
+    margin-bottom: 70px;
 }
 
 .Affiche2 {
