@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://cutewallpaper.org/23/sports-wallpaper-background/2785821311.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    animation: fadeInDown 3s ease-out infinite;
+}
+
+@keyframes fadeInDown {
+    0%, 100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Styles pour la nav */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+.loca {
+    position:absolute;
+    top: -1000px;
+
+}
+
+/* Styles pour les cartes (Les Sports) */
+.cartes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -100px;
+}
+
+.carte {
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+.carte:hover {
+    transform: translateY(-5px);
+}
+
+.carte img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.carte p {
+    font-size: 14px;
+}
+
+.contenu {
+    max-width: 800px;
+    margin: 250px auto 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center;
+}
+
+.image-evenement {
+    max-width: 100%;
+    right: 250px; 
+}
+
+.image-evenement-droite {
+    position: fixed; 
+    top: 50%; 
+    right: 0; 
+    transform: translateY(-50%); 
+    z-index: 10; 
+}
+
+.Localisation {
+    position: absolute;
+    top: 110px; 
+    right: 100px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+.Container {
+    position: relative;
+    right: 500px;
+    top: -250px;
+    display: none;
+}
+
+
+.Coupe {
+    position: absolute;
+    top: 900px; 
+    left: 1300px; 
+}
+
+.Affiche {
+    position: relative;
+    right: 500px;
+    top: -140px;
+}
+
+
+/* Styles pour la catégorie "Contact" avec la classe "site" */
+.site {
+    text-align: center; 
+    position: relative; 
+}
+
+.Affiche2 {
+    position: absolute; 
+    bottom: 100px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 1; 
+}
+
+.site a {
+    text-decoration: none; 
+    color: #0077cc; 
+    position: absolute; 
+    top: 370px; 
+    left: -130px; 
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+}
+
+
+.Instagram {
+    position: absolute;
+    top: 300px; 
+    left: 100px; 
+    z-index: 10; 
+}
+
+.Instagram img {
+    width: 300px; 
+    height: auto;
+    cursor: pointer;
+}
+
+
+.Gratuit {
+    position: absolute;
+    top: 400px; 
+    left: 1400px; 
+    z-index: 10; 
+}
+
+.Gratuit img {
+    width: 400px; 
+    height: auto;
+}
